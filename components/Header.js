@@ -9,7 +9,7 @@ function Header() {
       {/* Left */}
       <div>
         <h1 className="font-bold text-black sm:text-xl md:text-xl lg:text-2xl xl:text-3xl">
-          <Link href={'/'}>Swimming Website</Link>
+          <Link href={'/'}>Swimming Madness</Link>
         </h1>
       </div>
 

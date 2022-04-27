@@ -1,13 +1,12 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 import { motion } from 'framer-motion'
-import { useMoralis } from 'react-moralis'
 
 export default function Home() {
   return (
     <div className="h-screen">
       <Head>
-        <title>Swimming Website</title>
+        <title>Swimming Madness</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -32,7 +31,7 @@ export default function Home() {
             },
           }}
         >
-          <h1 className="text-5xl">Welcome to The Swimming Website!</h1>
+          <h1 className="text-5xl">Welcome to Swimming Madness!</h1>
           <p className="font-serif text-2xl">
             In this website you will learn a lot about swimming. <br />
             You will know the History of Swimming, Benifits of Swimming, The

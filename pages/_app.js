@@ -1,5 +1,6 @@
 import { MoralisProvider } from 'react-moralis'
 import '../styles/globals.css'
+import 'semantic-ui-css/semantic.min.css'
 
 function MyApp({ Component, pageProps }) {
   return (
